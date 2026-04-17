@@ -33,6 +33,15 @@ A typical full audit produces:
 
 ## Install
 
+### Option A — Claude Cowork (Pro / Max / Team / Enterprise)
+
+1. Download the skill zips from the [`dist/`](./dist) folder. Start with `seo.zip` (the orchestrator) — it's all you need for most audits. Add the others later if you want focused sub-skills.
+2. In Claude Cowork: **Settings → Features → Custom Skills → Upload**. Upload each `.zip` file.
+3. Toggle the skill on.
+4. Ask Cowork: *"Run a comprehensive SEO audit on example.com"* and it will trigger the skill automatically.
+
+### Option B — Claude Code (CLI / desktop)
+
 1. Install [Claude Code](https://docs.claude.com/en/docs/claude-code)
 2. Clone this repo:
    ```bash
