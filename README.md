@@ -63,7 +63,7 @@ A typical full audit produces:
 
 **Full site audit:**
 ```
-Run a comprehensive SEO audit on novulo.com
+Run a comprehensive SEO audit on example.com
 ```
 Orchestrator dispatches the relevant subagents in parallel, compiles findings into a single report with a health score and prioritized action plan.
 
